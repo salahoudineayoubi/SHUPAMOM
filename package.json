@@ -1,0 +1,16 @@
+{
+  "name": "shupamom",
+  "private": true,
+  "version": "0.1.0",
+  "description": "SHUPAMOM — apprends ta langue, parle avec ta famille, préserve tes racines.",
+  "workspaces": ["packages/*", "apps/*"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build:shared": "npm run build -w @shupamom/shared",
+    "dev:api": "npm run dev -w @shupamom/api",
+    "seed": "npm run seed -w @shupamom/api",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  }
+}

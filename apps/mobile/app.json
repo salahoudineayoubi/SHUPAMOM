@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Shupamom",
+    "slug": "shupamom",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "shupamom",
+    "userInterfaceStyle": "light",
+    "description": "Apprends ta langue. Parle avec ta famille. Pr\u00e9serve tes racines.",
+    "ios": {
+      "bundleIdentifier": "com.shupamom.app",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.shupamom.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundImage": "./assets/images/adaptive-background.png",
+        "monochromeImage": "./assets/images/adaptive-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png",
+      "name": "Shupamom",
+      "shortName": "Shupamom",
+      "themeColor": "#5B0A87",
+      "backgroundColor": "#FFF9EF",
+      "lang": "fr"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-logo.png",
+          "imageWidth": 250,
+          "backgroundColor": "#FFF9EF"
+        }
+      ],
+      "expo-audio"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "_comment": "DEMO ONLY — every Bamoun text below is a placeholder. Replace with validated content (see README.md). status must become 'validated' only after a competent speaker checked it.",
+  "language": "bax",
+  "speakers": [],
+  "phrases": [
+    {
+      "key": "salut.bonjour_grand_mere",
+      "bamoun": "⟨bamoun à valider — « Bonjour grand-mère »⟩",
+      "french": "Bonjour grand-mère",
+      "status": "placeholder",
+      "context": "salutation",
+      "register": "respect"
+    },
+    {
+      "key": "salut.bonjour_grand_pere",
+      "bamoun": "⟨bamoun à valider — « Bonjour grand-père »⟩",
+      "french": "Bonjour grand-père",
+      "status": "placeholder",
+      "context": "salutation",
+      "register": "respect"
+    },
+    {
+      "key": "salut.as_tu_bien_dormi",
+      "bamoun": "⟨bamoun à valider — « As-tu bien dormi ? »⟩",
+      "french": "As-tu bien dormi ?",
+      "status": "placeholder",
+      "context": "salutation",
+      "register": "respect"
+    },
+    {
+      "key": "salut.comment_vas_tu",
+      "bamoun": "⟨bamoun à valider — « Comment vas-tu ? »⟩",
+      "french": "Comment vas-tu ?",
+      "status": "placeholder",
+      "context": "nouvelles",
+      "register": "respect"
+    },
+    {
+      "key": "salut.je_vais_bien",
+      "bamoun": "⟨bamoun à valider — « Je vais bien, merci »⟩",
+      "french": "Je vais bien, merci",
+      "status": "placeholder",
+      "context": "nouvelles",
+      "register": "respect"
+    },
+    {
+      "key": "salut.au_revoir",
+      "bamoun": "⟨bamoun à valider — « Au revoir, à bientôt »⟩",
+      "french": "Au revoir, à bientôt",
+      "status": "placeholder",
+      "context": "au_revoir",
+      "register": "respect"
+    },
+    {
+      "key": "pres.je_m_appelle",
+      "bamoun": "⟨bamoun à valider — « Je m'appelle… »⟩",
+      "french": "Je m'appelle…",
+      "status": "placeholder",
+      "context": "presentation",
+      "register": "neutre"
+    },
+    {
+      "key": "pres.je_suis_ton_petit_fils",
+      "bamoun": "⟨bamoun à valider — « Je suis ton petit-fils / ta petite-fille »⟩",
+      "french": "Je suis ton petit-fils / ta petite-fille",
+      "status": "placeholder",
+      "context": "presentation",
+      "register": "respect"
+    },
+    {
+      "key": "pres.je_viens_de_france",
+      "bamoun": "⟨bamoun à valider — « Je viens de France »⟩",
+      "french": "Je viens de France",
+      "status": "placeholder",
+      "context": "presentation",
+      "register": "neutre"
+    }
+  ],
+  "paths": [
+    {
+      "slug": "parler-a-ma-grand-mere",
+      "title": "Parler à ma grand-mère",
+      "goal": "famille",
+      "order": 0,
+      "lessons": [
+        {
+          "key": "saluer",
+          "title": "Saluer ma grand-mère",
+          "objective": "Dire bonjour avec respect à tes grands-parents",
+          "estimatedMinutes": 3,
+          "phrases": [
+            "salut.bonjour_grand_mere",
+            "salut.bonjour_grand_pere",
+            "salut.as_tu_bien_dormi"
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Comment dit-on « Bonjour grand-mère » ?",
+              "answer": "salut.bonjour_grand_mere",
+              "options": [
+                "salut.bonjour_grand_mere",
+                "salut.bonjour_grand_pere",
+                "salut.as_tu_bien_dormi"
+              ]
+            },
+            {
+              "type": "mcq",
+              "prompt": "Comment demander « As-tu bien dormi ? »",
+              "answer": "salut.as_tu_bien_dormi",
+              "options": [
+                "salut.bonjour_grand_pere",
+                "salut.as_tu_bien_dormi",
+                "salut.bonjour_grand_mere"
+              ]
+            },
+            {
+              "type": "mcq",
+              "prompt": "Comment saluer ton grand-père ?",
+              "answer": "salut.bonjour_grand_pere",
+              "options": [
+                "salut.bonjour_grand_mere",
+                "salut.as_tu_bien_dormi",
+                "salut.bonjour_grand_pere"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nouvelles",
+          "title": "Prendre des nouvelles",
+          "objective": "Demander comment elle va et répondre",
+          "estimatedMinutes": 3,
+          "phrases": [
+            "salut.comment_vas_tu",
+            "salut.je_vais_bien"
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Comment dit-on « Comment vas-tu ? »",
+              "answer": "salut.comment_vas_tu",
+              "options": [
+                "salut.comment_vas_tu",
+                "salut.je_vais_bien"
+              ]
+            },
+            {
+              "type": "mcq",
+              "prompt": "Comment répondre « Je vais bien, merci » ?",
+              "answer": "salut.je_vais_bien",
+              "options": [
+                "salut.je_vais_bien",
+                "salut.comment_vas_tu"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "presenter",
+          "title": "Me présenter à la famille",
+          "objective": "Dire qui tu es et d'où tu viens",
+          "estimatedMinutes": 4,
+          "phrases": [
+            "pres.je_m_appelle",
+            "pres.je_suis_ton_petit_fils",
+            "pres.je_viens_de_france"
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Comment dit-on « Je m'appelle… » ?",
+              "answer": "pres.je_m_appelle",
+              "options": [
+                "pres.je_viens_de_france",
+                "pres.je_m_appelle",
+                "pres.je_suis_ton_petit_fils"
+              ]
+            },
+            {
+              "type": "mcq",
+              "prompt": "Comment dire « Je viens de France » ?",
+              "answer": "pres.je_viens_de_france",
+              "options": [
+                "pres.je_viens_de_france",
+                "pres.je_suis_ton_petit_fils",
+                "pres.je_m_appelle"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "au_revoir",
+          "title": "Dire au revoir",
+          "objective": "Prendre congé avec respect",
+          "estimatedMinutes": 2,
+          "phrases": [
+            "salut.au_revoir"
+          ],
+          "exercises": [
+            {
+              "type": "mcq",
+              "prompt": "Comment dit-on « Au revoir, à bientôt » ?",
+              "answer": "salut.au_revoir",
+              "options": [
+                "salut.au_revoir",
+                "salut.bonjour_grand_mere"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

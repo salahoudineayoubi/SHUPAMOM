@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Shupamom",
+    "slug": "shupamom",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF9EF"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundImage": "./assets/images/adaptive-background.png",
+        "monochromeImage": "./assets/images/adaptive-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.ico"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-logo.png",
+          "imageWidth": 250,
+          "backgroundColor": "#FFF9EF"
+        }
+      ]
+    ]
+  }
+}
